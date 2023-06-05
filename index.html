@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Employee List</h1>
+<label>
+    <input type="button" id="add-employee" value="Add Employee">
+</label>
+<label for="name">Name:</label>
+<input type="text" id="name">
+
+<label for="salary">Salary:</label>
+<input type="text" id="salary">
+
+<ul id="employee-list"></ul>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Edit Employee</h2>
+        <label for="edit-name">Name:</label>
+        <input type="text" id="edit-name" />
+        <label for="edit-salary">Salary:</label>
+        <input type="text" id="edit-salary" />
+        <button id="save-changes">Save Changes</button>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
+
